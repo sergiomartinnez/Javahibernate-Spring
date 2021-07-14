@@ -9,6 +9,7 @@
 ------------
 ## General info
 
+In this course i learned about Java EE and hibernate mixed with Spring, I use different technologies for the practice of this course, like tomcat, omniDB, Lombok, etc. And different dependencies for the better structure and management of the code. In the files you will find the structure of the project as MVC (model, view, controller) for reservation hotel rooms, which we create, update and delete users from the DB and can see the check-in date in the hotel and the check-out date. Also we configure the security web for the app and we use swagger for better visualization of the documentation in graphic interface.
 
 
 ------------
@@ -190,9 +191,9 @@ This project was made on a Windows 10 OS.
 | @ApiOperation | is to add a description on the swagger page to the methods |
 | @ApiResponse | is the way he responds |
 | @ApiResponses | is to put togetjer some Apiresponse |
-| @transactional |   |
-| @namedquery |   |
-| @GenericGenerator |   |
-| @Configuration |   |
-| @EnableWebSecurity |   |
-| @Data |   |
+| @transactional | Makes rollback when a simple operation inside fails ignonring the correct operations to the DB |
+| @namedquery | Annotation that is predefined query that we create and associate with a container-managed entity (used in domain classes) |
+| @GenericGenerator | Allows integration of any org.hibernate.id.IdentifierGenerator implementation of Hibernate |
+| @Configuration | Annotation indicates that a class declares one or more @Bean methods |
+| @EnableWebSecurity | Annotation to an @Configuration class to have the Spring Security configuration defined in any WebSecurityConfigurer |
+| @Data | provides an easy way to implement the data access layer using the JPA specification |
